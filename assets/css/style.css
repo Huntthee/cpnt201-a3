@@ -1,0 +1,20 @@
+/* Some very simple styles for presentation! */
+
+body {
+  max-width: 90ch;
+  margin: auto;
+
+  background-color: salmon;
+}
+
+/* When screen is 50rem or larger, apply these styles! */
+
+@media screen and (min-width: 50rem){
+  body {
+    background-color: paleturquoise;
+  }
+
+  .color-change {
+    fill: red;
+  }
+} 
